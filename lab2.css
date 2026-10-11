@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+#about{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.PRobject{
+    margin-left: 10px;
+    text-align: left;
+    border: 0.5px solid black;
+    padding: 0 10px 0 10px;
+    margin-left: 40px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#m{
+    height: 150px;
+    width: 300px;
+}
